@@ -1,0 +1,103 @@
+* {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+pwd {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+span {
+  font-weight: 100 !important;
+}
+
+.circle-green {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #14b8a6;
+  border-radius: 50%;
+  background-color: #14b8a6;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #14b8a6;
+  border-radius: 50%;
+}
+
+.num-btn {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  width: 50px;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dot-active,
+.dot,
+.dot-sm {
+  border-radius: 50%;
+}
+
+.dot-active {
+  width: 6px;
+  height: 6px;
+  background-color: #0095f6;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: lightgray;
+}
+
+.dot-sm {
+  width: 3px;
+  height: 3px;
+  background-color: lightgray;
+}
+
+.avatar-pic {
+  border-radius: 50%;
+  padding: 2px;
+  background: #833ab4;
+  background: linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045);
+}
+
+.avatar-pic img {
+  border-radius: 50%;
+  background: white !important;
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i.showdown.space/e01/meow.jpg");
+  position: relative;
+}
+
+.story-section {
+  margin-top: 8px;
+}
+
+.story-active {
+  border: 1.5px solid #ffffffde;
+}
+
+.story {
+  border: 1.5px solid #bdbdbdbd;
+}
+
+.msg-box {
+  border-color: #bdbdbd9c;
+}
+
+.msg-box-inner {
+  color: #ffffffcc;
+}

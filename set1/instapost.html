@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Thai:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Instagram Post</title>
+  </head>
+  <body>
+    <div class="w-full flex flex-col items-center justify-center h-screen">
+      <div class="flex">
+        <div class="flex flex-col">
+          <div
+            class="head w-[360px] flex justify-between items-center px-4 py-4"
+          >
+            <div class="avatar flex justify-center items-center">
+              <img
+                src="https://i.showdown.space/e01/sky.jpeg"
+                alt="Avatar Picture"
+                width="45"
+                class="avatar-pic p-4"
+              />
+              <p class="ml-2 text-sm font-medium">travel_desh</p>
+            </div>
+            <div>
+              <p class="text-2xl">&vellip;</p>
+            </div>
+          </div>
+          <div class="img aspect-square w-[360px] overflow-hidden">
+            <img
+              src="https://i.showdown.space/e01/beach.jpeg"
+              alt="Picture"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="icon flex justify-between items-center mx-4 mt-4">
+            <img src="https://i.showdown.space/e01/heart.svg" alt="Like" />
+            <div class="flex justify-center items-end gap-[4px]">
+              <div class="dot-active"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot-sm"></div>
+            </div>
+            <img
+              src="https://i.showdown.space/e01/bookmark.svg"
+              alt="Bookmark"
+            />
+          </div>
+          <div class="desc flex flex-col gap-1 ml-4 mt-5 text-[13px]">
+            <p class="font-bold">23,046 likes</p>
+            <div class="flex">
+              <p class="mr-1 font-bold">travel_desh</p>
+              <p class="mr-1">Somewhere in the world, live</p>
+              <p class="text-gray-500">...more</p>
+            </div>
+            <p class="text-gray-500">View all 1,012 comments</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

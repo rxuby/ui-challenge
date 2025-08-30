@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Thai:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>PIN</title>
+  </head>
+  <body>
+    <div class="w-full flex flex-col items-center justify-center h-screen">
+      <div class="relative p-12">
+        <span class="absolute top-4 right-4 cursor-pointer text-2xl"
+          >&#x1F7A8;</span
+        >
+        <div class="p-8">
+          <div class="flex flex-col gap-5">
+            <div class="flex flex-col justify-center items-center">
+              <p class="pwd text-md mb-4">กรุณาใส่รหัสผ่าน</p>
+              <div class="flex justify-center item-center gap-[9px]">
+                <div class="circle-green"></div>
+                <div class="circle-green"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4">
+              <button class="num-btn">1</button>
+              <button class="num-btn">2</button>
+              <button class="num-btn">3</button>
+              <button class="num-btn">4</button>
+              <button class="num-btn">5</button>
+              <button class="num-btn">6</button>
+              <button class="num-btn">7</button>
+              <button class="num-btn">8</button>
+              <button class="num-btn">9</button>
+              <div></div>
+              <button class="num-btn">0</button>
+              <button class="cursor-pointer flex justify-center items-center">
+                <img
+                  src="https://i.showdown.space/e01/delete-icon.svg"
+                  alt="delete button"
+                  width="27"
+                />
+              </button>
+            </div>
+            <div>
+              <p
+                class="pwd text-center text-md underline text-[#14B8A6] cursor-pointer"
+              >
+                ลืมรหัสผ่าน
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
