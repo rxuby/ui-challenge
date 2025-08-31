@@ -35,8 +35,8 @@
 
 .numpad {
   display: grid;
-  grid-template-columns: repeat(4, 60px);
-  grid-auto-rows: 60px;
+  grid-template-columns: repeat(4, 70px);
+  grid-auto-rows: 70px;
   gap: 8px;
   color: white;
   background: #394552;
